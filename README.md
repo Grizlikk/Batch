@@ -9,7 +9,7 @@ Pokud byste mě chtěli kontaktovat, tak mi můžete napsat na e-mail: grizlik.s
 
 ## Popis souborů:
 
-**Attack:** Soubor, který používám, když chci otestovat náročnost antivirového programu. Vložím 3 viry na C:\ a tento program je poté kopíruje a spouští. Jelikož některé antiviry dovedou zdetekovat i viry na C:\ pouze podle přístupu k souborům, používám i další 2 programy "Copy" a "Start". Pokud antivirus vymaže soubory, které se ještě nespustily, tak se celý program zasekne. Soubor "NotErrorStart" tedy dovede viry spustit bez toho, aby se program zaseknul.
+**Attack:** Soubor, který používám, když chci otestovat náročnost antivirového programu. Vložím 3 viry na C:\ a tento program je poté kopíruje a spouští. Jelikož některé antiviry dovedou zdetekovat i viry na C:\ pouze podle přístupu k souborům, používám i další 2 programy "Copy" a "Start". Pokud antivirus vymaže soubory, které se ještě nespustily, tak se celý program zasekne. Soubor "StartNotError" tedy dovede viry spustit bez toho, aby se program zaseknul.
 
 **Hádání číslic:** Jednoduchá hra, která vygeneruje náhodné číslo a uživatel se jej poté snaží uhodnout. Podobný soubor jsem použil i ve svém videu na vysvětlení, jak funguje trojský kůň.
 
