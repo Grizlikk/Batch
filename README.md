@@ -15,7 +15,7 @@ Pokud byste mě chtěli kontaktovat, tak mi můžete napsat na e-mail: grizlik.s
 
 **Porovnávání složek:** Program sloužící k porovnání obsahů dvou složek. Program neporovnává obsah souborů, ale pouze jejich názvy. Narozdíl od programu pro nalezení duplikovaných souborů, tento program vypíše soubory, které jsou různé pouze z jedné složky.,
 
-**Random:** Pomocí příkazu %random% mohu vygenerovat náhodné číslo od 0 do 32 769. Tento program porovná, jestli příkaz opravdu vygeneruje všechny tyto čísla. PS: Tento program běží opravdu dlouho (v řádech hodin až dnů), budu muset udělat nějakou funkčnější verzi :D.
+**Random:** Pomocí příkazu %random% mohu vygenerovat náhodné číslo od 0 do 32 769. Tento program porovná, jestli příkaz opravdu vygeneruje všechny tyto čísla. PS: Tento program běží opravdu dlouho (až v řádech dnů).
 
 **Seřazení:** Pokud chcete přejmenovat hodně souborů na názvy: 1, 2, 3, ... tak vám v tom tento program pomůže. Soubory přejmenujete na název "a", který se změní na "a (1), a (2), a (3), ..." a tento program je poté přejmenuje na číselné názvy.
 
