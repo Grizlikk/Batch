@@ -13,6 +13,8 @@ Pokud byste mě chtěli kontaktovat, tak mi můžete napsat na e-mail: grizlik.s
 
 **Hádání číslic:** Jednoduchá hra, která vygeneruje náhodné číslo a uživatel se jej poté snaží uhodnout. Podobný soubor jsem použil i ve svém videu na vysvětlení, jak funguje trojský kůň.
 
+**Hudba:** Když edituju videa na svůj YT kanál, tak si ukládám názvy všech písniček ve videu do souboru s názvem *[číslo videa]Hudba.txt*. Také, aby nebyla stejná písnička v několika videích po sobě, tak si otervřu i 5 předchozích souborů *Hudba.txt*. Pro usnadnění práce zadám do tohoto programu číslo videa a on mi sám otevře 5 předchozích souborů s názvem *[číslo]Hudba.txt* ve správném pořadí a dovede i vytvořit soubor s hudbou v aktuální složce.
+
 **Porovnávání složek:** Program sloužící k porovnání obsahů dvou složek. Program neporovnává obsah souborů, ale pouze jejich názvy. Narozdíl od programu pro nalezení duplikovaných souborů, tento program vypíše soubory, které jsou různé pouze z jedné složky.,
 
 **Random:** Pomocí příkazu %random% mohu vygenerovat náhodné číslo od 0 do 32 769. Tento program porovná, jestli příkaz opravdu vygeneruje všechny tyto čísla. PS: Tento program běží opravdu dlouho (až v řádech dnů).
