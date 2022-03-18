@@ -1,4 +1,4 @@
-@echo 
+@echo off
 color b
 title Hudba
 
