@@ -15,6 +15,8 @@ Pokud byste mě chtěli kontaktovat, tak mi můžete napsat na e-mail: grizlik.s
 
 **Hudba:** Když edituju videa na svůj YT kanál, tak si ukládám názvy všech písniček ve videu do souboru s názvem *[číslo videa]Hudba.txt*. Také, aby nebyla stejná písnička v několika videích po sobě, tak si otervřu i 5 předchozích souborů *Hudba.txt*. Pro usnadnění práce zadám do tohoto programu číslo videa a on mi sám otevře 5 předchozích souborů s názvem *[číslo]Hudba.txt* ve správném pořadí a dovede i vytvořit soubor s hudbou v aktuální složce.
 
+**Počet spuštění:** Tento program počítá, kolikrát byl spuštěn. Když ho spustíte poprvé, vypíše 1, když ho spustíte podruhé, vypíše 2 atd. Počet spuštění si ukládá do souboru *soubor.soubor*, pokud tedy potřebujete, aby váš program detekoval počet spuštění, můžete k tomu použít tento kód.
+
 **Porovnávání složek:** Program sloužící k porovnání obsahů dvou složek. Program neporovnává obsah souborů, ale pouze jejich názvy. Narozdíl od programu pro nalezení duplikovaných souborů, tento program vypíše soubory, které jsou různé pouze z jedné složky.,
 
 **Random:** Pomocí příkazu %random% mohu vygenerovat náhodné číslo od 0 do 32 769. Tento program porovná, jestli příkaz opravdu vygeneruje všechny tyto čísla. PS: Tento program běží opravdu dlouho (až v řádech dnů).
