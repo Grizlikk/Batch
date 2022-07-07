@@ -26,3 +26,5 @@ Pokud byste mě chtěli kontaktovat, tak mi můžete napsat na e-mail: grizlik.s
 **Videa:** Tento program používám, když převádím videa ze starého formátu *.mpg* na nový formát *.mp4*. Označím složky plné videí k převedení, ale poté potřebuji převedená videa zpět rozdělit do složek. Tento program porovná názvy .mpg videí a přesune .mp4 videa do odpovídající složky. Kód programu by šel napsat i lépe a je dost jednoúčelový, ale já tento program používám pouze pro řešení konkrétního problému.
 
 **Vireb:** Jednoduchý program, který pouze mění název složky pořád dokola. Tento soubor nemá žádné praktické využití, možná tak, když chcete otestovat ochranu proti ransomwaru.
+
+**Wifi password:** Program pro zjištění hesla od Wifi sítě. Zadáte název sítě a program vám vypíše heslo k té síti. *Heslo od sítě musí být uloženo v tom počítači, kde program spouštíte!* Pokud je tedy počítač připojený před kabel a nikdy nebyl připojený k bezdrátové síti, tak to nebude fungovat.
