@@ -13,7 +13,9 @@ Pokud byste mě chtěli kontaktovat, tak mi můžete napsat na e-mail: grizlik.s
 
 **Hádání číslic:** Jednoduchá hra, která vygeneruje náhodné číslo a uživatel se jej poté snaží uhodnout. Podobný soubor jsem použil i ve svém videu na vysvětlení, jak funguje trojský kůň.
 
-**Hudba:** Když edituju videa na svůj YT kanál, tak si ukládám názvy všech písniček ve videu do souboru s názvem *[číslo videa]Hudba.txt*. Také, aby nebyla stejná písnička v několika videích po sobě, tak si otervřu i 5 předchozích souborů *Hudba.txt*. Pro usnadnění práce zadám do tohoto programu číslo videa a on mi sám otevře 5 předchozích souborů s názvem *[číslo]Hudba.txt* ve správném pořadí a dovede i vytvořit soubor s hudbou v aktuální složce.
+**Hudba:** Když edituji videa na svůj YT kanál, tak si ukládám názvy všech písniček ve videu do souboru s názvem *[číslo videa]Hudba.txt*. Také, aby nebyla stejná písnička v několika videích po sobě, tak si otervřu i 5 předchozích souborů *Hudba.txt*. Pro usnadnění práce zadám do tohoto programu číslo videa a on mi sám otevře 5 předchozích souborů s názvem *[číslo]Hudba.txt* ve správném pořadí a dovede i vytvořit soubor s hudbou v aktuální složce.
+
+**Instalátor:** Tento program vám umožní snadno nainstalovat vybrané programy. Pouze napíšete název programu, který chcete nainstalovat a tento Instalátor.bat za vás stáhne instalační soubor a spustí instalaci.
 
 **Počet spuštění:** Tento program počítá, kolikrát byl spuštěn. Když ho spustíte poprvé, vypíše 1, když ho spustíte podruhé, vypíše 2 atd. Počet spuštění si ukládá do souboru *soubor.soubor*, pokud tedy potřebujete, aby váš program detekoval počet spuštění, můžete k tomu použít tento kód.
 
