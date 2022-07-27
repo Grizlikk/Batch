@@ -230,7 +230,7 @@ if "%aplikace%"=="Visual Studio Code" set aplikace=VSCode
 if "%aplikace%"=="visual studio code" set aplikace=VSCode
 if "%aplikace%"=="VS Code" set aplikace=VSCode
 if "%aplikace%"=="vs code" set aplikace=VSCode
-if "%aplikace%"=="VSCode" call :Instalace "https://code.visualstudio.com/docs/?dv=win" "VSCodeUserSetup-x64-1.68.1.exe" "1"
+if "%aplikace%"=="VSCode" call :Instalace "https://code.visualstudio.com/docs/?dv=win" "VSCodeUserSetup-x64-*" "2"
 
 rem WinDirStat
 if "%aplikace%"=="windirstat" set aplikace=WinDirStat
