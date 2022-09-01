@@ -1,6 +1,7 @@
 @echo off
 color b
 title Hudba
+setlocal enabledelayedexpansion
 
 rem Začátek programu
 set /p slozka=Zadejte cislo posledni slozky: 
@@ -14,7 +15,8 @@ if not exist temp (
     dir /b %slozka%* > temp
     set /p nazev=< temp
     del temp
-)
+) else (echo Temp Error & pause & exit)
+
 if not exist "%nazev%\%slozka%Hudba.txt" (
     cd "%nazev%"
     echo ---%nazev%--- > %slozka%Hudba.txt
@@ -26,12 +28,7 @@ rem Ukládání názvů souborů
 for /l %%i in (0, 1, 5) do (call :f %%i)
 
 rem Spouštění souborů
-    forfiles /m %c5%Hudba.txt /s /c "cmd /c start @file @file"
-    forfiles /m %c4%Hudba.txt /s /c "cmd /c start @file @file"
-    forfiles /m %c3%Hudba.txt /s /c "cmd /c start @file @file"
-    forfiles /m %c2%Hudba.txt /s /c "cmd /c start @file @file"
-    forfiles /m %c1%Hudba.txt /s /c "cmd /c start @file @file"
-    forfiles /m %c0%Hudba.txt /s /c "cmd /c start @file @file"
+for /l %%i in (5, -1, 0) do (forfiles /m !c%%i!Hudba.txt /s /c "cmd /c start @file @file")
 exit
 
 :f
