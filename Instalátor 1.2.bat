@@ -66,7 +66,7 @@ if "%aplikace%"=="BlueStacks" call :Instalace "https://cdn3.bluestacks.com/downl
 rem CCleaner
 if "%aplikace%"=="ccleaner" set aplikace=CCleaner
 if "%aplikace%"=="Ccleaner" set aplikace=CCleaner
-if "%aplikace%"=="CCleaner" call :Instalace "https://www.ccleaner.com/ccleaner/download/standard" "ccsetup602.exe" "1"
+if "%aplikace%"=="CCleaner" call :Instalace "https://www.ccleaner.com/ccleaner/download/standard" "ccsetup*" "2"
 
 rem CoreTemp
 if "%aplikace%"=="coretemp" set aplikace=CoreTemp
@@ -176,7 +176,7 @@ if "%aplikace%"=="Python" call :Instalace "https://www.python.org/ftp/python/3.1
 
 rem Recuva
 if "%aplikace%"=="recuva" set aplikace=Recuva
-if "%aplikace%"=="Recuva" call :Instalace "https://www.ccleaner.com/recuva/download/standard" "rcsetup153.exe" "1"
+if "%aplikace%"=="Recuva" call :Instalace "https://www.ccleaner.com/recuva/download/standard" "rcsetup*" "2"
 
 rem Total Commander
 if "%aplikace%"=="total commander" set aplikace=Total Commander
